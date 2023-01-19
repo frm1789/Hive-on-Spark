@@ -23,8 +23,12 @@ The main Hadoop framework consists of four modules that work together to make up
 - MapReduce: This programming model allows you to process data on a large scale. It uses parallel and distributed computing algorithms to translate processing logic and make it easy to write applications that transform large data sets into one easy to manage data set. 
 
 The data processing can be divided into two distinct phases or steps: Map and Reduce. These threads associated with the task are executed in a distributed way, in different processing nodes or slaves.
-To control and manage its execution, there is a Master or Job Tracker process. It is also in charge of accepting new jobs sent to the system by clients.
 
-- HDFS: It is the main component of the Hadoop ecosystem. HDFS provides the pre-blocking of data that MapReduce needs to run. The processing results can be stored in the same storage system or in an external database or system.
 
-- Hadoop Common – Includes libraries and utilities that are used and shared by other Hadoop modules.
+## Spark on Haddop
+
+Spark is a real-time data analyzer, while Hadoop is a processing engine for very large data sets that don't fit in memory. Hive is a data storage system, like SQL, that is based on Hadoop.
+
+Hadoop can handle large data batching efficiently, while Spark processes real-time data such as Facebook and Twitter feeds. Spark has an interactive mode that allows the user to have more control during the execution of the job.
+
+Spark is the fastest option for ingesting real-time data, including unstructured data streams. Hadoop (with Hive) is optimal for running analytics using SQL.
