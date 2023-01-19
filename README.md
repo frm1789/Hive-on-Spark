@@ -24,6 +24,17 @@ The main Hadoop framework consists of four modules that work together to make up
 
 The data processing can be divided into two distinct phases or steps: Map and Reduce. These threads associated with the task are executed in a distributed way, in different processing nodes or slaves.
 
+## Phases in MapReduce
+
+In a Hadoop MapReduce job, the input data is split into independent chunks that are processed by the mappers in parallel. Next, the results of the map are sorted, which are the input to the reducers. 
+
+The framework is also responsible for managing resources, scheduling, restarting, and monitoring tasks with the Hadoop YARN manager, which has a single Resource Manager and a Node Manager on each cluster node.
+
+- The <b>Map phase</b> is executed in subtasks called <b>mappers</b>. These components are responsible for generating key-value pairs by filtering, grouping, sorting, or transforming the original data. Intermediate data pairs are not stored in HDFS.
+
+- The <b>Shuffle (sort)</b> phase may not be necessary. It is the intermediate step between Map and reduce that helps to collect the data and arrange it in a convenient way for processing. With this phase, it is intended to add the repeated occurrences in each of the mappers.
+
+- The <b>Reduce phase</b> manages the aggregation of the values produced by all the mappers in the system (or by the shuffle phase) of key-value type based on their key. Finally, each reducer generates its output file independently, generally written in HDFS.
 
 ## Spark on Haddop
 
