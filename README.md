@@ -36,6 +36,14 @@ The framework is also responsible for managing resources, scheduling, restarting
 
 - The <b>Reduce phase</b> manages the aggregation of the values produced by all the mappers in the system (or by the shuffle phase) of key-value type based on their key. Finally, each reducer generates its output file independently, generally written in HDFS.
 
+### Counting words in Hadoop? Why is this the common example?
+
+The most common example of a MapReduce application is Word Count. It consists of counting the occurrences of each word in a set of documents.
+
+The program is divided into 3 components: the driver (application entry point), the mapper implementation and the reducer implementation.
+
+
+
 ## Spark on Haddop
 
 Spark is a real-time data analyzer, while Hadoop is a processing engine for very large data sets that don't fit in memory. Hive is a data storage system, like SQL, that is based on Hadoop.
