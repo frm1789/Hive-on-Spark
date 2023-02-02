@@ -1,4 +1,4 @@
-# Hive-on-Spark
+# The Hadoop Universe
 Spark is a real-time data analyzer, whereas Hadoop is a processing engine for very large data sets that do not fit in memory. Hive is a data warehouse system, like SQL, that is built on top of Hadoop.
 
 # Apache Hadoop 
@@ -43,7 +43,6 @@ The most common example of a MapReduce application is Word Count. It consists of
 The program is divided into 3 components: the driver (application entry point), the mapper implementation and the reducer implementation.
 
 
-
 ## Spark on Haddop
 
 Spark is a real-time data analyzer, while Hadoop is a processing engine for very large data sets that don't fit in memory. Hive is a data storage system, like SQL, that is based on Hadoop.
@@ -51,3 +50,17 @@ Spark is a real-time data analyzer, while Hadoop is a processing engine for very
 Hadoop can handle large data batching efficiently, while Spark processes real-time data such as Facebook and Twitter feeds. Spark has an interactive mode that allows the user to have more control during the execution of the job.
 
 Spark is the fastest option for ingesting real-time data, including unstructured data streams. Hadoop (with Hive) is optimal for running analytics using SQL.
+
+
+### Zookeeper - Because coordinating distributed systems is a zoo - 
+
+#### Tasks: 
+- Coordinate service for distributed applications
+- Naming
+- Configuration
+- Synchronization
+- Group management/leader election
+
+
+
+
