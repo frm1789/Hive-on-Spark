@@ -52,9 +52,9 @@ Hadoop can handle large data batching efficiently, while Spark processes real-ti
 Spark is the fastest option for ingesting real-time data, including unstructured data streams. Hadoop (with Hive) is optimal for running analytics using SQL.
 
 
-### Zookeeper - Because coordinating distributed systems is a zoo - 
+## Zookeeper - Because coordinating distributed systems is a zoo - 
 
-#### Tasks: 
+### Tasks: 
 - Coordinate service for distributed applications
 - Naming
 - Configuration
