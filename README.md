@@ -61,6 +61,7 @@ Spark is the fastest option for ingesting real-time data, including unstructured
 - Synchronization
 - Group management/leader election
 
-
+### When to use ZooKeeper?
+Its depends of your requirements, so if you need sincronization, probably you will need to include a Zookeeper. So, there is also no wrong answer about when to use it.
 
 
