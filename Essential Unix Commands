@@ -1,0 +1,62 @@
+## 20 Essential Unix Commands to do the 80% of the work
+
+I always love Pareto's Rule because it reflects an enormous reality: you can achieve the most only with the most common instructions. 
+
+
+1) pwd
+What is the working directory? Or where are you?
+
+
+2) mkdir
+Make a directory, and create a new directory.
+$ mkdir
+
+3) ls
+List all the files in a directory
+$ ls
+
+4) cd 
+Change directory, in the practical way, if you don't include an specific directory, you're redirect to the inferior level of directories.
+$ cd
+
+5) cp
+Copy one file from one directory to another. As simple as it sounds, if you include all the parameters works in a very smooth way.
+$ cp /user/home/file.txt user/home/new_directory
+
+6) mv
+Copy one file from one directory to another. As simple as it sounds, if you include all the parameters works in a very smooth way.
+$ mv /user/home/file.txt user/home/new_directory
+
+7) cat 
+Show the content of a file
+$ cat file.txt
+
+8) nano
+It is a text's editor, and you can create (if the file doesn't exist) or open a file.
+$ nano myfile.txt
+
+9) file
+Display the type of a file
+$file Download
+
+10) grep 
+Look for something and print it.  The name means ‘globally search a regular expression and print it’.
+$grep myfile.txt 'hello'
+
+11) lpr 
+Send a file to be printed.
+$lpr file.txt
+
+12) clear
+Clean up the terminal 
+$ clear
+
+13) history
+Show the list of instructions. Very useful to reexecute previous instructions.
+
+14) sudo 
+Install an editor.
+
+
+
+
