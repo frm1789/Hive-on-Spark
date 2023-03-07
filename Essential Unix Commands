@@ -54,8 +54,14 @@ $ clear
 13) history
 Show the list of instructions. Very useful to reexecute previous instructions.
 
-14) sudo 
-Install an editor.
+14) man 
+Display manual pages for most UNIX commands.
+$ man cd
+
+15) rmdir
+Remove directories
+
+
 
 
 
