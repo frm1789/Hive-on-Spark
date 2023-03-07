@@ -6,61 +6,78 @@ I always love Pareto's Rule because it reflects an enormous reality: you can ach
 1) pwd
 What is the working directory? Or where are you?
 
-
-2) mkdir
-Make a directory, and create a new directory.
-$ mkdir
-
-3) ls
+2) ls
 List all the files in a directory
 $ ls
 
-4) cd 
+3) cd 
 Change directory, in the practical way, if you don't include an specific directory, you're redirect to the inferior level of directories.
 $ cd
 
-5) cp
+4) cp
 Copy one file from one directory to another. As simple as it sounds, if you include all the parameters works in a very smooth way.
 $ cp /user/home/file.txt user/home/new_directory
 
-6) mv
-Copy one file from one directory to another. As simple as it sounds, if you include all the parameters works in a very smooth way.
-$ mv /user/home/file.txt user/home/new_directory
+5) history
+Show the list of instructions. Very useful to reexecute previous instructions.
 
-7) cat 
-Show the content of a file
-$ cat file.txt
-
-8) nano
-It is a text's editor, and you can create (if the file doesn't exist) or open a file.
-$ nano myfile.txt
-
-9) file
-Display the type of a file
-$file Download
-
-10) grep 
-Look for something and print it.  The name means ‘globally search a regular expression and print it’.
-$grep myfile.txt 'hello'
-
-11) lpr 
-Send a file to be printed.
-$lpr file.txt
-
-12) clear
+6) clear
 Clean up the terminal 
 $ clear
 
-13) history
-Show the list of instructions. Very useful to reexecute previous instructions.
+7) nano
+It is a text's editor, and you can create (if the file doesn't exist) or open a file.
+$ nano myfile.txt
 
-14) man 
+8) cat 
+Display the content of a file in a terminal
+$ cat file.txt
+
+9) less
+Display paged output in the terminal
+$ cat -less file.txt
+
+10) head
+Return a number of lines from the top
+
+11) tail
+Return a number of lines from the bottom
+
+12) mv
+Copy one file from one directory to another. As simple as it sounds, if you include all the parameters works in a very smooth way.
+$ mv /user/home/file.txt user/home/new_directory
+
+13) mkdir
+Make a directory, and create a new directory.
+$ mkdir new_directory
+
+14) file
+Display the type of a file
+$file file.txt
+
+15) grep 
+Look for something and print it.  The name means ‘globally search a regular expression and print it’.
+$grep -c myfile.txt 'hello'
+
+16) lpr 
+Send a file to be printed.
+$lpr file.txt
+
+17) man 
 Display manual pages for most UNIX commands.
 $ man cd
 
-15) rmdir
+18) rmdir
 Remove directories
+$ rm my_directory
 
+19) ping
+Allow you to check if the remote host is alive. 
+$ ping 127.0.0.1
+
+20) wget 
+Direct download from files from internet.
+$ wget http://google.com/file.txt 
 
 
 
