@@ -1,6 +1,11 @@
 ## 20 Essential Unix Commands to do the 80% of the work
 
 I always love Pareto's Rule because it reflects an enormous reality: you can achieve the most only with the most common instructions. 
+This set of instructions can help users navigate the file system, manipulate files and directories, and run programs efficiently. 
+For example, basic commands like "cd" and "ls" are essential for moving around the file system and listing the contents of directories. 
+"mkdir" and "rm" are useful for creating directories or remove files and directories, while "cp" and "mv" can be used to copy or move files. 
+Additionally, knowledge of commands like "grep" can make it easier to search data into text files. 
+Overall, understanding the 20 most useful Unix commands can improve productivity and help users better manage their files and directories.
 
 
 1) pwd
@@ -33,9 +38,9 @@ $ nano myfile.txt
 Display the content of a file in a terminal
 $ cat file.txt
 
-9) less
-Display paged output in the terminal
-$ cat -less file.txt
+9) rm
+Remove files
+$ rm file.txt
 
 10) head
 Return a number of lines from the top
